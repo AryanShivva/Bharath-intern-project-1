@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wert"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/selectType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="300dp"
+
+
+        >
+
+        <TextView
+            android:id="@+id/textType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="fahrenheit"
+            android:textAllCaps="true"
+            android:layout_marginHorizontal="8dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textAppHeading" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+
+            android:src="@drawable/baseline_arrow_drop_down_circle_24"
+            app:srcCompat="@drawable/baseline_arrow_drop_down_circle_24" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/editInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:hint="Enter temperture"
+        android:textColorHint="#939292"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal"
+        android:maxLength="6"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textCursorDrawable="@color/black"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/textResultType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="celsius"
+        android:textAllCaps="true"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+         />
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="0.0"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textColor="#FF0E32"
+        android:textColorHint="#99FFFFFF"
+        android:textSize="48sp"
+        />
+
+
+</LinearLayout>
