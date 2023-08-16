@@ -1,6 +1,8 @@
 # Bharath-intern-projects
 
-Completed the First Task of Android App Developer Internship by Bharath Intern
+Completed the Projects given by Bharath internship.
+
+This is the First Project
 
 Project - Calculator App :
 A calculator app having basic functions like
